@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.org/dtd/hibernate-reverse-engineering-3.0.dtd" >
+
+<hibernate-reverse-engineering>
+
+<table-filter match-catalog="test" match-name="address" />
+	<table-filter match-catalog="test" match-name="person" />
+	<table catalog="test" name="address">
+		<column name="slno"></column>
+		<column name="pid"></column>
+		<column name="street"></column>
+		<column name="city"></column>
+		<column name="latitude"></column>
+		<column name="country"></column>
+		<column name="address"></column>
+		<column name="state"></column>
+		<column name="longitude"></column>
+	</table>
+	<table catalog="test" name="person">
+		<column name="id"></column>
+		<column name="name"></column>
+		<column name="country"></column>
+		<column name="ph_no"></column>
+	</table>
+</hibernate-reverse-engineering>
